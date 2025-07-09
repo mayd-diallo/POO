@@ -43,7 +43,7 @@ public class main {
                     System.out.println("Choix invalide.");
             }
 
-            // Bonus: vérifier si la bouteille est ouverte et non fermée
+            
             if (bouteille.isEstOuvert() && random.nextBoolean()) {
                 Bouteille.vider() ;
             }
